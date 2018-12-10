@@ -1,0 +1,2 @@
+TickerSymbol,SharesOwned,CostBasis,Weight
+AAPL,6,1344.58324,1100

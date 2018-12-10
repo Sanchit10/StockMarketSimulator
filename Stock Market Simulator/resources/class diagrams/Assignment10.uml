@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>model.SMSimulatorModel</OriginalElement>
+  <nodes>
+    <node x="0.0" y="0.0">model.PortfolioOperations</node>
+    <node x="1574.5947916666667" y="653.0">view.View</node>
+    <node x="1289.7421875" y="2846.0">view.ViewImpl</node>
+    <node x="743.4921875" y="5224.0">controller.SMControllerImpl</node>
+    <node x="1788.4151041666667" y="2229.0">view.GUI</node>
+    <node x="1464.6588541666665" y="5059.0">controller.SMControllerGUI</node>
+    <node x="848.7421875" y="3583.5">controller.SMController</node>
+    <node x="26.0" y="1114.0">model.User</node>
+    <node x="569.0171874999999" y="1269.0">model.SMSimulatorModel</node>
+    <node x="104.07812499999977" y="3417.5">model.SMSimulatorModelImpl</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="controller.SMControllerGUI" target="view.View">
+      <point x="35.08333333333337" y="-345.5" />
+      <point x="1710.2421875" y="5039.0" />
+      <point x="1766.9151041666667" y="5039.0" />
+      <point x="1766.9151041666667" y="2199.0" />
+      <point x="1807.3447916666667" y="2199.0" />
+      <point x="33.25" y="763.0" />
+    </edge>
+    <edge source="model.User" target="model.PortfolioOperations">
+      <point x="-112.0" y="-302.0" />
+      <point x="138.0" y="628.0" />
+      <point x="125.0" y="628.0" />
+      <point x="-125.0" y="301.5" />
+    </edge>
+    <edge source="view.ViewImpl" target="view.View">
+      <point x="0.0" y="-763.0" />
+      <point x="1489.2421875" y="2209.0" />
+      <point x="1674.3447916666667" y="2209.0" />
+      <point x="-99.75" y="763.0" />
+    </edge>
+    <edge source="controller.SMController" target="view.View">
+      <point x="105.25" y="-25.5" />
+      <point x="1164.4921875" y="2199.0" />
+      <point x="1607.8447916666667" y="2199.0" />
+      <point x="-166.25" y="763.0" />
+    </edge>
+    <edge source="controller.SMControllerGUI" target="model.SMSimulatorModel">
+      <point x="-105.25" y="-345.5" />
+      <point x="1569.9088541666665" y="5019.0" />
+      <point x="814.9421875" y="5019.0" />
+      <point x="814.9421875" y="2209.0" />
+      <point x="910.6171874999998" y="2209.0" />
+      <point x="97.59999999999991" y="147.0" />
+    </edge>
+    <edge source="controller.SMControllerGUI" target="controller.SMController">
+      <point x="-35.083333333333314" y="-345.5" />
+      <point x="1640.0755208333333" y="5009.0" />
+      <point x="1164.4921875" y="5009.0" />
+      <point x="105.25" y="25.5" />
+    </edge>
+    <edge source="controller.SMControllerImpl" target="view.View">
+      <point x="140.33333333333326" y="-180.5" />
+      <point x="1094.3255208333333" y="5039.0" />
+      <point x="1699.2421875" y="5039.0" />
+      <point x="1699.2421875" y="2209.0" />
+      <point x="1740.8447916666667" y="2209.0" />
+      <point x="-33.25" y="763.0" />
+    </edge>
+    <edge source="model.SMSimulatorModelImpl" target="model.User">
+      <point x="0.0" y="-191.5" />
+      <point x="348.0781249999998" y="2209.0" />
+      <point x="362.0" y="2209.0" />
+      <point x="112.0" y="302.0" />
+    </edge>
+    <edge source="model.SMSimulatorModelImpl" target="model.SMSimulatorModel">
+      <point x="162.66666666666674" y="-191.5" />
+      <point x="510.7447916666665" y="2209.0" />
+      <point x="617.8171874999998" y="2209.0" />
+      <point x="-195.20000000000005" y="147.0" />
+    </edge>
+    <edge source="controller.SMControllerGUI" target="view.GUI">
+      <point x="175.41666666666674" y="-345.5" />
+      <point x="1850.5755208333333" y="5039.0" />
+      <point x="1987.9151041666667" y="5039.0" />
+      <point x="0.0" y="1380.0" />
+    </edge>
+    <edge source="controller.SMControllerImpl" target="controller.SMController">
+      <point x="0.0" y="-180.5" />
+      <point x="-105.25" y="25.5" />
+    </edge>
+    <edge source="view.GUI" target="view.View">
+      <point x="0.0" y="-1380.0" />
+      <point x="1987.9151041666667" y="2209.0" />
+      <point x="1940.3447916666667" y="2209.0" />
+      <point x="166.25" y="763.0" />
+    </edge>
+    <edge source="controller.SMControllerImpl" target="model.SMSimulatorModel">
+      <point x="-140.33333333333348" y="-180.5" />
+      <point x="813.6588541666665" y="5039.0" />
+      <point x="727.5734375" y="5039.0" />
+      <point x="727.5734375" y="2209.0" />
+      <point x="715.4171875" y="2209.0" />
+      <point x="-97.59999999999991" y="147.0" />
+    </edge>
+    <edge source="controller.SMController" target="model.SMSimulatorModel">
+      <point x="-105.25" y="-25.5" />
+      <point x="953.9921875" y="2209.0" />
+      <point x="1008.2171874999999" y="2209.0" />
+      <point x="195.20000000000005" y="147.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.13102253032928943" x="1094.0" y="2875.0" />
+  <SelectedNodes>
+    <node>model.SMSimulatorModelImpl</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

@@ -1,0 +1,3 @@
+TickerSymbol,SharesOwned,CostBasis,Weight
+AAPL,5,957.05,10
+AMZN,6,9716.64,90

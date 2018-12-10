@@ -1,0 +1,1 @@
+TickerSymbol,SharesOwned,CostBasis,WeightAMZN,4,8058.89084,-1
